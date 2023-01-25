@@ -24,7 +24,7 @@ This lab assumes that you have:
 
     ```
     <copy>
-    CONNECT http://phoenix98251.dev3sub1phx.databasede3phx.oraclevcn.com:9010 DEPLOYMENT NORTH as oggadmin PASSWORD oggadmin
+    CONNECT http://dbhol.livelabs.oracle.com:9011 DEPLOYMENT NORTH as oggadmin PASSWORD oggadmin
     </copy>
     ```
 
@@ -79,4 +79,4 @@ To create database credentials in the Administration Client:
 ## Acknowledgements
 * **Author** - Anuradha Chepuri, Principal UA Developer, Oracle GoldenGate User Assistance
 * **Contributors** -  Preeti Shukla, Volker Kuhr, Madhusudhan Rao
-* **Last Updated By/Date** - Anuradha Chepuri, June 2022
+* **Last Updated By/Date** - Anuradha Chepuri, February 2023
