@@ -28,7 +28,6 @@ This lab assumes that you have:
     </copy>
     ```
 
-
 ## Task 2: Add Database Credentials
 
 You need to establish 2 database connections (`pdbeast` and `pdbwest`) through the Admin Client in preparation to issue other Oracle GoldenGate commands that affect the database.
