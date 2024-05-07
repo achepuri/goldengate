@@ -51,10 +51,10 @@ This lab assumes that you completed all preceding labs, and your deployment is i
 
     ```
     <copy>-- Table list for capture
-table SRCMIRROR_OCIGGLL.*;
+    table SRCMIRROR_OCIGGLL.*;
 
--- Exclude changes made by GGADMIN
-tranlogoptions excludeuser ggadmin</copy>
+    -- Exclude changes made by GGADMIN
+    tranlogoptions excludeuser ggadmin</copy>
     ```
 
 10. Click **Create and Run**. You're returned to the Overview page. The EXTB Extract process is created.
@@ -105,9 +105,9 @@ tranlogoptions excludeuser ggadmin</copy>
 
     ![Extract completed](./images/02-11-admin-service-overview.png)
 
-## Task 3: Perform Inserts to the Source Database
+## Task 3: Perform Inserts to the Target Database
 
-1.  Return to the Oracle Cloud Console and use the navigation menu (hamburger icon) to navigate back to **Oracle Database**, **Autonomous Transaction Processing**, and then **TargetADW**.
+1.  Return to the Oracle Cloud Console and use the navigation menu (hamburger icon) to navigate back to **Oracle Database**, **Autonomous Data Warehouse**, and then **TargetADW**.
 
     ![Autonomous Transaction Processing in Oracle Cloud navigation menu](./images/03-01a-auto-trans-process.png " ")
 
@@ -154,4 +154,4 @@ Insert into SRCMIRROR_OCIGGLL.SRC_CITY (CITY_ID,CITY,REGION_ID,POPULATION) value
 ## Acknowledgements
 * **Author** - Jenny Chan, Consulting User Assistance Developer, Database User Assistance
 * **Contributors** -  Julien Testut, Database Product Management; Katherine Wardhana, User Assistance Developer
-* **Last Updated By/Date** - Katherine Wardhana, October 2022
+* **Last Updated By/Date** - Katherine Wardhana, May 2024

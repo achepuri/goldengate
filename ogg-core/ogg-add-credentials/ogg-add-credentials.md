@@ -38,7 +38,7 @@ To create database credentials in the Administration Client:
 
     ```
     <copy>
-    ALTER CREDENTIALSTORE ADD USER ggadmin@orclpdbeast ALIAS ggeast  DOMAIN OracleGoldenGate PASSWORD Welcome1
+    ALTER CREDENTIALSTORE ADD USER ggadmin@orclpdbeast ALIAS ggeast  DOMAIN OracleGoldenGate PASSWORD Welcome2OGG
     </copy>
     ```
 
@@ -53,7 +53,7 @@ To create database credentials in the Administration Client:
 
     ```
     <copy>
-    ALTER CREDENTIALSTORE ADD USER ggadmin@orclpdbwest ALIAS ggwest  DOMAIN OracleGoldenGate PASSWORD Welcome1
+    ALTER CREDENTIALSTORE ADD USER ggadmin@orclpdbwest ALIAS ggwest  DOMAIN OracleGoldenGate PASSWORD Welcome2OGG
     </copy>
     ```
 4.  To test the database connection, run the following command:

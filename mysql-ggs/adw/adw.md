@@ -78,7 +78,7 @@ This lab assumes you completed all preceding labs successfully.
 
 Click **Administration Service** to return to the Overview page.
 
-## Task 2: Create a Replicat for Change Data Capture
+## Task 3: Create a Replicat for Change Data Capture
 
 1.  On the Administration Service Overview page, click **Add Replicat** (plus icon).
 
@@ -116,4 +116,4 @@ Click **Administration Service** to return to the Overview page.
 ## Acknowledgements
 * **Author** - Jenny Chan, Consulting User Assistance Developer, Database User Assistance
 * **Contributors** -  Julien Testut, Database Product Management
-* **Last Updated By/Date** - Jenny Chan, July 2022
+* **Last Updated By/Date** - Jenny Chan, September 2023
