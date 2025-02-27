@@ -20,7 +20,7 @@ In this Lab you will:
 
 - You should have successfully completed all the previous labs.
 - A json file with the sample data to be used in this tutorial:
-  [Click here to download file.](./files/busstream.json?download=1)
+  [Click here to download file.](./files/bus.json?download=1)
 
 
 ## **Task 1:** Create a Kafka Connection
@@ -63,7 +63,7 @@ In this Lab you will:
     - Click **Upload** to upload the **busstream.json** file that you downloaded earlier.
     - Select **JSON** from the **Data Format** drop-down.
 
-    ![Uploading an input stream file](./images/upload-json-file.png "")
+    ![Uploading an input stream file](./images/upldjsonfile.png "")
 
 5. On the **Shape** page:
     -  Select the **Infer Shape** option and click **Infer**.
@@ -112,14 +112,14 @@ In this Lab you will:
     - In the **Display Name** field, enter a display name for the Connection. If left blank, the **Name** field value is copied.
     - In the **Tags** field, enter **tutorial, transportation**.
 
-![Creating a Database Connection](./images/db-conn-1.png "")
+![Creating a Database Connection](./images/dbconn1.png "")
 
 
 4. On the **Connection Details** page, enter the following details:
     - In the **database** field, select **MySQL** from the dropdown.
     - In the **jdbc url** field, enter **jdbc:mysql://OSA _ DEMO:Welcome123!@localhost:3306/OSA _ DEMO**.
 
-![Creating a Database Connection](./images/db-conn-2.png "")
+![Creating a Database Connection](./images/dbconn2.png "")
 
 5. Click **Test Connection**, and wait till the status is successful. Click **Save**.
 
@@ -160,4 +160,4 @@ You may now **proceed to the next lab**.
 ## Acknowledgements
 * **Author** - Pratibha Manjunath, Senior User Assistance Developer, GoldenGate Stream Analytics
 * **Contributors** - Sumathi Nelapati
-* **Last Updated By/Date** - Pratibha Manjunath, December 2023
+* **Last Updated By/Date** - Pratibha Manjunath, October 2024
